@@ -1,5 +1,8 @@
-// test array
+// test arrays
+
 const testarr = [2,5,23,6,9,4,30,1]
+const testarr2 = [1,2,3,4,5,6,7,8,9,10]
+const testarr3 = [5,1,6,9,2,12,9]
 
 // min/max/average function
 
@@ -16,5 +19,8 @@ function minMaxAverage(arr) {
   ", Max Value: " + Math.max(...arr) + ", Average: " + average)
 }
 
-// call function with test array
+// call function with test arrays
+
 minMaxAverage(testarr)
+minMaxAverage(testarr2)
+minMaxAverage(testarr3)
