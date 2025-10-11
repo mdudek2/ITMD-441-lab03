@@ -1,4 +1,5 @@
 // function definition
+
 function countVowels(word) {
   
   var count = 0
@@ -12,9 +13,11 @@ function countVowels(word) {
 }
 
 // strings to test
-var s1 = "teststring"
-var s2 = "Apple Pie"
-var s3 = "Illinois Tech"
+
+let s1 = "teststring"
+let s2 = "Apple Pie"
+let s3 = "Illinois Tech"
+
 
 // output
 console.log(s1 + ": vowels: " + countVowels(s1))

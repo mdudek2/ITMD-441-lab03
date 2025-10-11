@@ -1,9 +1,3 @@
-// test arrays
-
-const testarr = [2,5,23,6,9,4,30,1]
-const testarr2 = [1,2,3,4,5,6,7,8,9,10]
-const testarr3 = [5,1,6,9,2,12,9]
-
 // min/max/average function
 
 function minMaxAverage(arr) {
@@ -18,6 +12,12 @@ function minMaxAverage(arr) {
   console.log("Total Numbers: " + arr.length + ", Min Value: " + Math.min(...arr) + 
   ", Max Value: " + Math.max(...arr) + ", Average: " + average)
 }
+
+// test arrays
+
+let testarr = [2,5,23,6,9,4,30,1]
+let testarr2 = [1,2,3,4,5,6,7,8,9,10]
+let testarr3 = [5,1,6,9,2,12,9]
 
 // call function with test arrays
 
